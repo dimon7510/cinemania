@@ -1,22 +1,31 @@
 {
   "name": "cinemania",
   "version": "1.0.0",
-  "description": "project cinemania",
-  "main": "index.js",
+  "description": "Project Cinemania - movie review website",
+  "main": "index.html",
   "scripts": {
+    "lite": "lite-server",
+    "scss": "node-sass -o css/ css/",
+    "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dimon7510/cinemania.git"
   },
-  "author": "",
+  "author": "Dimitri Eir",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dimon7510/cinemania/issues"
   },
   "homepage": "https://github.com/dimon7510/cinemania#readme",
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "lite-server": "^2.6.1",
+    "node-sass": "^4.14.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
   }
 }
