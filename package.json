@@ -1,0 +1,22 @@
+{
+  "name": "cinemania",
+  "version": "1.0.0",
+  "description": "project cinemania",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimon7510/cinemania.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dimon7510/cinemania/issues"
+  },
+  "homepage": "https://github.com/dimon7510/cinemania#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
