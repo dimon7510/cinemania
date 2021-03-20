@@ -53,25 +53,61 @@
     <!--NAVIGATION BAR-->
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="img/logo.png" height="30" width="30" /></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
+            <!--Toggler-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#cinemaniaNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="nucampNavbar">
+            <div class="collapse navbar-collapse" id="cinemaniaNavbar">
                 <ul class="navbar-nav">
-                    <li class="nav-item active"><a class="nav-link" href="#"> <i class="fa fa-home fa-lg"></i> Home </a></li>
-                    <li class="nav-item"><a class="nav-link" href="aboutus.html"> <i class="fa fa-info fa-lg"></i> About </a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"> <i class="fa fa-list fa-lg"></i> Sites </a></li>
-                    <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg"></i> Contact </a></li>
-                </ul>
+                    <!--Home Btn-->
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">
+                            <button type="button" class="btn btn-sm" name="HomeBtn" id="homeBtn">Home</button>
+                        </a>
+                    </li>
+                    <!--Genre Btn-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <button type="button" class="btn btn-sm" name="genreBtn" id="genreBtn">Genre</button>
+                        </a>
+                    </li>
+                    <!--Year Btn-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <button type="button" class="btn btn-sm" name="yearBtn" id="yearBtn">Year</button>
+                        </a>
+                    </li>
+                    <!--Country Btn-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <button type="button" class="btn btn-sm" name="countryBtn" id="countryBtn">Country</button>
+                        </a>
+                    </li>
+                    <!--New Release Btn-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <button type="button" class="btn btn-sm" name="newReleaseBtn" id="newReleaseBtn">New Release</button>
+                        </a>
+                    </li>
+                    <!--TV-Series Btn-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <button type="button" class="btn btn-sm" name="TV-SeriesBtn" id="TV-SeriesBtn">TV-Series</button>
+                        </a>
+                    </li>
+                    <!--Favorits-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <button type="button" class="btn btn-sm" name="favoritsBtn" id="favoritsBtn">Favorits</button>
+                        </a>
+                    </li>
 
-                <!--LOGIN BTN-->
-                <span class="navbar-text ml-auto">
-                    <a role="button" id="loginButton">
-                        <i class="fa fa-sign-in"></i> Login
-                    </a>
-                </span>
+                </ul>
             </div>
+            <!--Up Btn-->
+            <span class="navbar-text ml-auto">
+                <a role="button" href="#" id="upBtn">UP</a>
+            </span>
         </div>
     </nav>
 

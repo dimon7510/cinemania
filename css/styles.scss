@@ -1,3 +1,4 @@
+//Fonts
 $cinemia-font: 'Bangers', cursive;
 $movie-body-font: 'Cabin', sans-serif;
 $movie-header-font: 'Castoro', serif;
@@ -6,32 +7,32 @@ $review-body-font: 'Open Sans', sans-serif;
 $body-font: 'Roboto', sans-serif;
 $lobster-font: "Lobster", cursive;
 
+//Colors
 $jumbo-background: #8e0303;
 $jumbo-background: linear-gradient(90deg,#8e0303 0%, #470509 100%);
 
-$color-primary: #3046C5;
-$color-secondary: #5637dd;
+$color-primary: #8e0303;
+$color-secondary: #e2cc8e;
 $color-pale: #CEC8FF;
 $color-mid: #901CAD;
 $color-teal: #17A2B8;
 $color-dark: #60106b;
 $color-black-transparent: rgba(0, 0, 0, 0.5);
 
-
-
-
-body{
-    font-family: $body-font;
-}
-
-
-
+//Header+Jumbotron
 header{
     h1,h2,h3{
         font-family: $cinemia-font;
         color: rgb(238, 230, 230);
     }
 }
+
+.jumbotron{
+    margin: 0;
+    padding: 5px;
+    background: $jumbo-background;
+}
+
 #searchBtn{
     color: white;
 }
@@ -39,6 +40,46 @@ header{
 #logo {
     margin: 0;
     padding: 0;
+}
+
+//Navbar
+.navbar {
+    background-color: $color-secondary;
+        color:$jumbo-background;
+        button{
+            background-color: $color-primary;
+            border: none;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;}
+}
+
+#upBtn{
+    color: black;
+    font-weight: bold;
+    font-family: $movie-header-font;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+/*
+#homeBtn{
+    background-color: $color-primary;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+*/
+
+
+body{
+    font-family: $body-font;
 }
 
 h2 {
@@ -59,11 +100,7 @@ header {
    // background-repeat: repeat-x;
 } 
 
-.jumbotron{
-    margin: 0;
-    padding: 5px;
-    background: $jumbo-background;
-}
+
 /*
 .row-content{
     padding: 50px 0;
@@ -72,9 +109,6 @@ header {
 }
 */
 
-.navbar {
-    background-color: $color-mid;
-}
 
 .carousel-caption{
     background-color: $color-black-transparent;
