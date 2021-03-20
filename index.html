@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
@@ -16,14 +15,45 @@
     <link rel="stylesheet" href="css/styles.css" />
   <!-- enbuild -->
 
+  <!--fonts-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
-
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Cabin:ital,wght@0,400;0,500;1,400&family=Castoro&family=Cherry+Swash:wght@400;700&family=Open+Sans&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    
     <title>Cinemania: it's all about movies</title>
 </head>
 
 <body>
-   
-    <h1>Hello, world!</h1>
+    <!--JUMBOTRONE HEADER-->
+    <header  class="jumbotron jumbotron-fluid">
+        <div class="container-fluid">
+            <div class="row">
+                <!--Cineania Title-->
+                <div class="col-10 col-sm-3 col-md-2 mt-4 align-self-left">
+                    <h1>CINEMANIA</h1>
+                </div>
+                <!--Logo-->
+                <div id="logo" class="d-none d-sm-inline col-1 ml-4 align-self-center">
+                    <img src="img/filmstrip-small.png" class="img-fluid" alt="filmstrip-small" />
+                </div>
+                <!--Search Field-->
+                <div class="col-9 col-sm input-group input-group-md align-self-center">
+                    <input type="search" class="form-control" id="searchInput" name="q" aria-label="Search Movie">
+                    <button role="button" name="searchBtn" id="searchBtn">Search</button>
+                </div>
+                <!--Login Button-->
+                <div class="col-2  align-self-center">
+                    <a role="button" class="btn btn-sm btn-info" id="loginButton"> 
+                        Login
+                    </a>
+                </div>
+            </div>        
+        </div>
+        
+    
+    </header>
+
+    
 
   
 
@@ -33,12 +63,12 @@
     </footer>
 
       <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
-<!-- build:js js/main.js -->
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="js/scripts.js">  </script>
-<!-- endbuild -->
+  <!-- build:js js/main.js -->
+      <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+      <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+      <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+      <script src="js/scripts.js">  </script>
+  <!-- endbuild -->
 
 </body>
 
