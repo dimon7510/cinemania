@@ -16,7 +16,17 @@ header h1, header h2, header h3 {
 
 .navbar {
   background-color: #e2cc8e;
-  color: linear-gradient(90deg, #8e0303 0%, #470509 100%); }
+  color: linear-gradient(90deg, #8e0303 0%, #470509 100%);
+  /*
+        a {
+            background-color: $color-primary;
+            border: none;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;}
+            */ }
   .navbar button {
     background-color: #8e0303;
     border: none;
@@ -24,7 +34,10 @@ header h1, header h2, header h3 {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 14px; }
+    font-size: 14px;
+    padding: 4px;
+    margin-top: 1rem;
+    margin-left: 0.5rem; }
 
 #upBtn {
   color: black;
@@ -81,5 +94,5 @@ header h2 {
   color: white; }
 
 #loginModal .modal-header {
-  background-color: #901CAD;
+  background-color: #e2cc8e;
   color: white; }

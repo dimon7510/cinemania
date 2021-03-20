@@ -53,7 +53,21 @@ header{
             text-align: center;
             text-decoration: none;
             display: inline-block;
+            font-size: 14px;
+            padding: 4px;
+            margin-top: 1rem;
+            margin-left: 0.5rem;
+        }
+            /*
+        a {
+            background-color: $color-primary;
+            border: none;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
             font-size: 14px;}
+            */
 }
 
 #upBtn{
@@ -134,7 +148,7 @@ header {
 
 #loginModal{
     .modal-header{
-        background-color: $color-mid;
+        background-color: $color-secondary;
         color: white;
     }
 }
