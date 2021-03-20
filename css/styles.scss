@@ -43,8 +43,40 @@ header{
     padding: 0;
 }
 
+//Navbar
+.navbar {
+    background-color: $color-secondary;
+        color:$jumbo-background;
+        button{
+            background-color: $color-primary;
+            border: none;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            padding: 4px;
+            margin-top: 1rem;
+            margin-left: 0.5rem;
+        }
+}
 
+#loginModal{
+    .modal-header{
+        background-color: $color-secondary;
+        color: white;
+    }
+}
 
+#upBtn{
+    color: black;
+    font-weight: bold;
+    font-family: $movie-header-font;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+//BODY
 .card-body{
     background-color: $color-title;
     padding-top: 0.5rem;
@@ -63,75 +95,32 @@ header{
     }
 }
 
-//Navbar
-.navbar {
-    background-color: $color-secondary;
-        color:$jumbo-background;
-        button{
-            background-color: $color-primary;
-            border: none;
-            color: white;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 14px;
-            padding: 4px;
-            margin-top: 1rem;
-            margin-left: 0.5rem;
-        }
-            /*
-        a {
-            background-color: $color-primary;
-            border: none;
-            color: white;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 14px;}
-            */
-}
-
-#upBtn{
-    color: black;
-    font-weight: bold;
-    font-family: $movie-header-font;
-    font-size: 18px;
-    margin-left: 10px;
-}
-
 .row-content{
     padding: 20px 0;
     border-bottom:  1px ridge;
     min-height: 200px;
 }
-/*
-#homeBtn{
-    background-color: $color-primary;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-}
-*/
-
 
 body{
     font-family: $body-font;
 }
 
-
+//FOOTER
 .site-footer {
-   // background-image: url('movie_film_full.png');
-   // background-repeat: repeat-x;
+    background-image: linear-gradient($color-primary, $color-secondary);
+    padding: 20px 0;
+    a{
+        color: white;
+    }
+    i{
+        color: white;
+    }
 } 
 
 
 
 
-
+/*
 
 .carousel-caption{
     background-color: $color-black-transparent;
@@ -154,10 +143,4 @@ body{
         color: white;
     }
 }
-
-#loginModal{
-    .modal-header{
-        background-color: $color-secondary;
-        color: white;
-    }
-}
+*/
