@@ -13,7 +13,8 @@ $jumbo-background: linear-gradient(90deg,#8e0303 0%, #470509 100%);
 
 $color-primary: #8e0303;
 $color-secondary: #e2cc8e;
-$color-pale: #CEC8FF;
+$color-title: #f1b897d0;
+
 $color-mid: #901CAD;
 $color-teal: #17A2B8;
 $color-dark: #60106b;
@@ -40,6 +41,26 @@ header{
 #logo {
     margin: 0;
     padding: 0;
+}
+
+
+
+.card-body{
+    background-color: $color-title;
+    padding-top: 0.5rem;
+    padding-bottom: 0.3rem;
+    .card-title{
+        padding-top: 0px;
+        padding-bottom: 0px;
+        font-family: $movie-header-font;
+        color: black;
+    }
+    .card-text{
+        font-family: $cinemia-font;
+        color: black;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
 }
 
 //Navbar
@@ -78,6 +99,11 @@ header{
     margin-left: 10px;
 }
 
+.row-content{
+    padding: 20px 0;
+    border-bottom:  1px ridge;
+    min-height: 200px;
+}
 /*
 #homeBtn{
     background-color: $color-primary;
@@ -96,32 +122,15 @@ body{
     font-family: $body-font;
 }
 
-h2 {
-    color: $color-primary;
-}
 
-h1 {
-    color: $color-primary;
-}
-
-header {
-    h2 {
-        color: $color-pale;
-    }    
-}
 .site-footer {
    // background-image: url('movie_film_full.png');
    // background-repeat: repeat-x;
 } 
 
 
-/*
-.row-content{
-    padding: 50px 0;
-    border-bottom:  1px ridge;
-    min-height: 200px;
-}
-*/
+
+
 
 
 .carousel-caption{

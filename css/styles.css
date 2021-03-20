@@ -14,6 +14,21 @@ header h1, header h2, header h3 {
   margin: 0;
   padding: 0; }
 
+.card-body {
+  background-color: #f1b897d0;
+  padding-top: 0.5rem;
+  padding-bottom: 0.3rem; }
+  .card-body .card-title {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-family: "Castoro", serif;
+    color: black; }
+  .card-body .card-text {
+    font-family: "Bangers", cursive;
+    color: black;
+    padding-top: 0px;
+    padding-bottom: 0px; }
+
 .navbar {
   background-color: #e2cc8e;
   color: linear-gradient(90deg, #8e0303 0%, #470509 100%);
@@ -46,6 +61,11 @@ header h1, header h2, header h3 {
   font-size: 18px;
   margin-left: 10px; }
 
+.row-content {
+  padding: 20px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px; }
+
 /*
 #homeBtn{
     background-color: $color-primary;
@@ -61,22 +81,6 @@ header h1, header h2, header h3 {
 body {
   font-family: "Roboto", sans-serif; }
 
-h2 {
-  color: #8e0303; }
-
-h1 {
-  color: #8e0303; }
-
-header h2 {
-  color: #CEC8FF; }
-
-/*
-.row-content{
-    padding: 50px 0;
-    border-bottom:  1px ridge;
-    min-height: 200px;
-}
-*/
 .carousel-caption {
   background-color: rgba(0, 0, 0, 0.5); }
 
