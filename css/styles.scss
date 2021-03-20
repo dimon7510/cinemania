@@ -24,15 +24,16 @@ body{
     font-family: $body-font;
 }
 
-body {
-    background-repeat: repeat-x;
-  }
+
 
 header{
     h1,h2,h3{
         font-family: $cinemia-font;
         color: rgb(238, 230, 230);
     }
+}
+#searchBtn{
+    color: white;
 }
 
 #logo {

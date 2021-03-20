@@ -1,12 +1,12 @@
 body {
   font-family: "Roboto", sans-serif; }
 
-body {
-  background-repeat: repeat-x; }
-
 header h1, header h2, header h3 {
   font-family: "Bangers", cursive;
   color: #eee6e6; }
+
+#searchBtn {
+  color: white; }
 
 #logo {
   margin: 0;
