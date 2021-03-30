@@ -10,6 +10,7 @@ $lobster-font: "Lobster", cursive;
 //Colors
 $jumbo-background: #8e0303;
 $jumbo-background: linear-gradient(90deg,#8e0303 0%, #470509 100%);
+$chart-background: linear-gradient(180deg,#19a50c 0%, #023306 100%);
 
 $color-primary: #8e0303;
 $color-secondary: #e2cc8e;
@@ -77,33 +78,79 @@ header{
 }
 
 //BODY
-.card-body{
-    background-color: $color-title;
-    padding-top: 0.5rem;
-    padding-bottom: 0.3rem;
-    .card-title{
-        padding-top: 0px;
-        padding-bottom: 0px;
-        font-family: $movie-header-font;
-        color: black;
-    }
-    .card-text{
-        font-family: $cinemia-font;
-        color: black;
-        padding-top: 0px;
-        padding-bottom: 0px;
-    }
-}
-
 .row-content{
-    padding: 20px 0;
-    border-bottom:  1px ridge;
-    min-height: 200px;
+    padding: 10px 0;
+   min-height: 200px;
 }
 
 body{
     font-family: $body-font;
 }
+
+//Movie-Grid Card CSS
+.movie-grid{
+    margin: 0px;
+    padding: 0px;
+    .card{
+        margin: 1rem 0;
+        padding: 0;
+        background-color: blanchedalmond;
+        .card-body{
+            background-color: $color-title;
+            padding-top: 0.5rem;
+            padding-bottom: 0.3rem;
+            .card-title{
+                padding-top: 0px;
+                padding-bottom: 0px;
+                font-family: $movie-header-font;
+                color: black;
+            }
+            .card-text{
+                font-family: $cinemia-font;
+                color: black;
+                padding-top: 0px;
+                padding-bottom: 0px;
+            }
+        }
+    }
+}
+
+
+
+//Movie-Chart Card CSS
+.movie-chart{
+    margin: 0px;
+    padding: 0px;
+    .card{
+        margin: 1.5rem 0;
+        padding: 0;
+        background-color: blanchedalmond;
+        .card-header{
+            background-color: blanchedalmond;
+            font-family: $cinemia-font;
+        }
+        .card-body{
+           
+            background: $chart-background;
+            padding-top: 0.5rem;
+            padding-bottom: 0.3rem;
+            .card-text{
+                margin: 4px;
+                li{
+                    font-family: $movie-header-font;
+                    color: blanchedalmond;
+                    font-size: 0.9rem;
+                    a{
+                        color: blanchedalmond;
+                    }
+                    padding-top: 0px;
+                    padding-bottom: 0px;
+                }
+            }
+        }
+    }
+}
+
 
 //FOOTER
 .site-footer {
